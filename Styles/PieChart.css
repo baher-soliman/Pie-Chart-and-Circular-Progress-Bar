@@ -1,0 +1,48 @@
+﻿.leftHalf
+{
+    position: absolute;
+    overflow: hidden;
+}
+.rightHalf
+{
+    position: absolute;
+    overflow: hidden;
+}
+.movingHalf
+{
+    border-style: solid;
+    position: absolute;
+    border-right-style: none !important;
+    -webkit-transform-origin: 100% 50%;
+    -moz-transform-origin: 100% 50%;
+    -ms-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+}
+.appendix
+{
+    background-color: #FFFFE0;
+    border: 1px dashed #B0B0B0;
+    margin-bottom: 20px;
+    padding: 15px;
+    margin-top:20px;
+    text-align: justify;
+    font-size: 17px;
+    display: block;
+    min-width:200px;
+}
+
+.colorBullet
+{
+    display:inline-block;
+    width:35px;
+    height:12px;
+}
+.appItem
+{
+    width:200px;
+    float:left;
+}
+.clear
+{
+    clear:both;
+}

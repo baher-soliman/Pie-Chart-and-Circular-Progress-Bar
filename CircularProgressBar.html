@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Circular Progress Bar</title>
+    <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/PieIndicator.min.js" type="text/javascript"></script>
+    <link href="Styles/PieIndicator.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="pie1">
+    </div>
+    <script>
+        $("#pie1").pie({
+            valuePercentage: "70",
+            radius: 100,
+            borderWidth: 100,
+            fillColor: "transparent",
+            borderColor: "Green",
+            emptyFillColor: "transparent",
+            emptyBorderColor: "#ddd",
+            hideValue: false
+        });     
+    </script>
+</body>
+</html>

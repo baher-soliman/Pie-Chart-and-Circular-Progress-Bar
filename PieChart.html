@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Pie Chart</title>
+    <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/PieChart.min.js" type="text/javascript"></script>
+    <link href="Styles/PieChart.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="pie1">
+    </div>
+    <script>
+        $("#pie1").pieChart({
+            radius: 100,
+            borderWidth: 100,
+            data: [
+            { title: 'A', measure: 4, borderColor: 'Red', fillColor: 'Transparent' },
+            { title: 'B', measure: 7, borderColor: 'Green', fillColor: 'Transparent' },
+            { title: 'C', measure: 2, borderColor: 'Blue', fillColor: 'Transparent' },
+            { title: 'D', measure: 5, borderColor: 'Black', fillColor: 'Transparent' },
+            { title: 'E', measure: 11, borderColor: 'Brown', fillColor: 'Transparent' },
+            { title: 'F', measure: 10, borderColor: 'Green', fillColor: 'Transparent' },
+            { title: 'G', measure: 4, borderColor: 'Blue', fillColor: 'Transparent' },
+            { title: 'H', measure: 5, borderColor: 'Black', fillColor: 'Transparent' },
+            { title: 'I', measure: 5, borderColor: 'Brown', fillColor: 'Transparent' },
+            { title: 'J', measure: 1, borderColor: 'Yellow', fillColor: 'Transparent' }
+            ]
+        });
+
+        
+    </script>
+</body>
+</html>
