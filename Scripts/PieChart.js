@@ -1,4 +1,3 @@
-var currAngle = 0;
 $.fn.pieChart = function (settings) {
 
     if (settings == null || settings == undefined)
