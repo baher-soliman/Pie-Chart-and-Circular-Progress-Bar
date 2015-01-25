@@ -37,7 +37,7 @@ $.fn.pieChart = function (settings) {
     }
 
 
-    this.css("position", "relative").css("height", ((settings.radius + settings.borderWidth) * 2) + "px").css("width", ((settings.radius + settings.borderWidth) * 2) + "px");
+    this.css("position", "relative").css("height", ((settings.radius + settings.borderWidth) * 2) + "px").css("width", ((settings.radius + settings.borderWidth) * 2) + "px").css("direction","ltr");
     var zIndexIndexer = settings.data.length + 1;
 
     this.append("<div class='leftHalf' style='width:" + (settings.radius + settings.borderWidth) + "px;height:" + ((settings.radius + settings.borderWidth) * 2) + "px;'></div>");
